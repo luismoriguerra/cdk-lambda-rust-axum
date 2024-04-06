@@ -1,0 +1,26 @@
+npm install -g aws-cdk
+
+cdk --version
+
+curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+sudo installer -pkg AWSCLIV2.pkg -target /
+
+which aws
+aws --version
+
+aws sts get-caller-identity
+
+cdk bootstrap aws://___/us-west-__
+
+mkdir cdk
+cd cdk
+cdk init app --language typescript
+
+cd ..
+cargo new api
+cd api
+cargo add axum serde serde_json tokio
+cargo add tokio -F macros
+
+cargo lambda watch
+http://localhost:9000/foo

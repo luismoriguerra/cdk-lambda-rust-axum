@@ -1,0 +1,13 @@
+
+
+### 
+Get https://wxo5sjsmi3.execute-api.us-west-2.amazonaws.com/prod/
+Content-Type: application/json
+
+### 
+Get https://wxo5sjsmi3.execute-api.us-west-2.amazonaws.com/prod/foo
+Content-Type: application/json
+
+### 
+Get https://wxo5sjsmi3.execute-api.us-west-2.amazonaws.com/prod/foo/bar
+Content-Type: application/json
